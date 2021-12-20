@@ -407,6 +407,11 @@ footer .address p {
   font-weight: lighter;
 }
 
+footer .address h3 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
 footer .contact p {
   margin-bottom: 5px;
 }
@@ -431,13 +436,25 @@ footer .map iframe {
   height: 300px;
 }
 
-footer .links .row > div {
-  text-align: center;
-  padding: 20px 0;
-  padding-top: 40px;
+footer .links h3 {
+  margin-top: 50px;
 }
 
-footer .links .row > div a {
+footer .links .bottomLinks a {
+  padding-top: 0;
+  margin: 0 10px;
+}
+
+footer .links .bottomLinks a:hover {
+  color: #EDD900;
+}
+
+footer .links > div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .links > div a {
   color: white;
   font-weight: 550;
   text-decoration: none;

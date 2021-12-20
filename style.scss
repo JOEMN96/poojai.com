@@ -341,6 +341,10 @@ footer {
             margin-bottom: 5px;
             font-weight: lighter;
         }
+        h3 {
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
     }
 
     .contact {
@@ -367,11 +371,24 @@ footer {
         }
     }
 
-    .links .row {
+    .links  {
+        h3 {
+            margin-top: 50px;
+        }
+        .bottomLinks {
+            a {
+                // display: block;
+                // text-align: left;
+                padding-top: 0;
+                margin: 0 10px;
+                &:hover {
+                    color: #EDD900;
+                }
+            }
+        }
          & > div {
              text-align: center;
              padding: 20px 0; 
-             padding-top: 40px;
              a {
                  color: white;
                  font-weight: 550;
