@@ -725,6 +725,9 @@ footer {
             }
         }
     }
+    .links {
+        display: none;
+    }
     .socials {
         display: none !important;
     }
@@ -736,6 +739,10 @@ footer {
 @media (min-width:767px) {
     .bottomLinks2 {
         display: none;
+        
+    }
+    .links {
+        display: block;
     }
     .socials2 {
         display: none !important;

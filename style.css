@@ -815,6 +815,9 @@ footer .links > div a {
   .bottomLinks2 > div a {
     color: white;
   }
+  .links {
+    display: none;
+  }
   .socials {
     display: none !important;
   }
@@ -826,6 +829,9 @@ footer .links > div a {
 @media (min-width: 767px) {
   .bottomLinks2 {
     display: none;
+  }
+  .links {
+    display: block;
   }
   .socials2 {
     display: none !important;
