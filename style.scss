@@ -359,17 +359,7 @@ footer {
         }
     }
 
-    .map {
-        display: grid;
-        place-items: center;
-        width: 100%;
 
-        iframe {
-            margin-top: 30px;
-            width: 100%;
-            height: 300px;
-        }
-    }
 
     .links  {
         h3 {
@@ -377,10 +367,11 @@ footer {
         }
         .bottomLinks {
             a {
-                // display: block;
-                // text-align: left;
+                display: block;
+                text-align: left;
                 padding-top: 0;
-                margin: 0 10px;
+                margin: 10px 15px;
+                font-weight: lighter;
                 &:hover {
                     color: #EDD900;
                 }
@@ -395,6 +386,19 @@ footer {
                  text-decoration: none;
              }
          }
+    }
+}
+
+.map {
+    display: grid;
+    place-items: center;
+    width: 100%;
+
+    iframe {
+        margin-top: 30px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
     }
 }
 
